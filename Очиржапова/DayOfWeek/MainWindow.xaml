@@ -21,7 +21,7 @@
         <TextBox x:Name="year" HorizontalAlignment="Left" Height="25" Margin="163,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47" RenderTransformOrigin="0.572,0.652" TextChanged="Year_TextChanged" BorderBrush="{x:Null}" Foreground="#FF077F5A" FontFamily="Microsoft YaHei UI Light"/>
         <TextBox x:Name="month" HorizontalAlignment="Left" Height="25" Margin="111,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47" RenderTransformOrigin="0.102,0.53" TextChanged="Month_TextChanged" BorderBrush="{x:Null}" Foreground="#FF077F5A" FontFamily="Microsoft YaHei UI Light"/>
         <Button x:Name="ok" Content="OK" HorizontalAlignment="Left" Margin="232,140,0,0" VerticalAlignment="Top" Width="75" Click="Ok_Click" Height="25" BorderBrush="{x:Null}" Background="#FFCFFFF0" Foreground="#FF077F5A" FontFamily="Microsoft YaHei UI Light"/>
-        <Label x:Name="result" Content="Вы родились" HorizontalAlignment="Left" Margin="59,186,0,0" VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.497,0.492" Foreground="#FF077F5A" FontFamily="Microsoft YaHei UI Light"/>
+        <Label x:Name="result" Content="" HorizontalAlignment="Left" Margin="59,186,0,0" VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.497,0.492" Foreground="#FF077F5A" FontFamily="Microsoft YaHei UI Light"/>
 
     </Grid>
 </Window>

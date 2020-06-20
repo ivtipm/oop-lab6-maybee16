@@ -43,7 +43,7 @@ namespace DayOfWeek
 
         private void Ok_Click(object sender, RoutedEventArgs e)
         {
-            result.Content += " " + dw.GetDayOfTheWeek();
+            result.Content = "Вы родились " + dw.GetDayOfTheWeek();
         }
     }
 }
